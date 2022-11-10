@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    {% include 'phone_book/helpers/_view_user.html' %}
+    <a href="{% url 'phone_book:index' %}"><- Назад</a>
+
+{% endblock %}

@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    {% include 'phone_book/helpers/_users_navigation.html' %}
+
+    <h1>{{ title }}</h1>
+
+    <form method="POST" autocomplete="off" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ form.non_field_errors }}
+        {{ form.as_p }}
+        <input type="submit" class="btn-sub" value="Update user">
+    </form>
+    <a href="{% url 'phone_book:index' %}"><- Back</a>
+{% endblock %}

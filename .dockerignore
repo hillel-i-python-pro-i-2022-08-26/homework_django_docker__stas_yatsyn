@@ -1,0 +1,29 @@
+# Ignore all
+**
+
+# Exclude_apps__start
+
+!admin_users
+!base
+!core
+!greetings
+!phone_book
+!users_generator
+!session_app
+
+# Exclude_apps__stop
+
+# Exclude_templates__start
+
+!templates
+
+# Exclude_templates__stop
+
+# Exclude_project_files__start
+
+!manage.py
+!Makefile
+!requirements.txt
+!docker/app
+
+Exclude_project_files__stop

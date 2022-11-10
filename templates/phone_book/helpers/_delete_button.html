@@ -1,0 +1,4 @@
+<form action="{% url 'phone_book:delete_user' contact.pk %}" method="post">
+    {% csrf_token %}
+    <input type="submit" value="Delete user">
+</form>

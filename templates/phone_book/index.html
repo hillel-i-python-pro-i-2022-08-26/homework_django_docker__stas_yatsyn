@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    {% include 'phone_book/helpers/_users_navigation.html' %}
+
+    <h1>{{ title }}</h1>
+
+    {% for contact in contacts %}
+        <p>Ім'я: {{ contact.name }}.</p>
+        <p>Номер телефону: {{ contact.phone }}</p>
+        <p>Дата народження: {{ contact.birthday_date|date:"d.m.Y" }}</p>
+
+        <p><a href="{% url 'phone_book:user' contact.pk %}">Reed more</a></p>
+
+        {% include 'phone_book/helpers/_update_button.html' %}
+        {% include 'phone_book/helpers/_delete_button.html' %}
+        <hr>
+    {% endfor %}
+
+{% endblock %}

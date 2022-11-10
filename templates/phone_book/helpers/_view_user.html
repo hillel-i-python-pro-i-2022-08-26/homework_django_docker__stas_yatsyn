@@ -1,0 +1,11 @@
+{% include 'phone_book/helpers/_users_navigation.html' %}
+
+<h1>{{ title }}</h1>
+
+<p>Name: {{ contact.name }}.</p>
+<p>Phone number: {{ contact.phone }}</p>
+<p>Date of birthday: {{ contact.birthday_date|date:"d.m.Y" }}</p>
+
+{% include 'phone_book/helpers/_update_button.html' %}
+{% include 'phone_book/helpers/_delete_button.html' %}
+<hr>
