@@ -2,7 +2,7 @@
 
 ***
 
-[![Main workflow](https://github.com/hillel-i-python-pro-i-2022-08-26/homework_django_contacts_and_commands__stas_yatsyn/actions/workflows/main-workflow.yml/badge.svg)](https://github.com/hillel-i-python-pro-i-2022-08-26/homework_django_contacts_and_commands__stas_yatsyn/actions/workflows/main-workflow.yml)
+[![Main workflow](https://github.com/hillel-i-python-pro-i-2022-08-26/homework_django_docker__stas_yatsyn/actions/workflows/main-workflow.yml/badge.svg)](https://github.com/hillel-i-python-pro-i-2022-08-26/homework_django_docker__stas_yatsyn/actions/workflows/main-workflow.yml)
 
 ### Main commands:
 
